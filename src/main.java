@@ -69,7 +69,7 @@ public class main {
     }
 
     double addTax(double price){
-        return price + 1.25;
+        return price * 1.25;
     }
 
     double calculateFinalPrice(double basePrice,double discount){
