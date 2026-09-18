@@ -32,7 +32,6 @@ public class main {
     int assignmentPoints = 0;
     int examPoints = 0;
     int projectPoints = 0;
-    int total = 0;
 
     void main(){
         addAssignmentPoints(25);
@@ -54,7 +53,7 @@ public class main {
     }
 
     void printTotal(){
-        total = assignmentPoints+examPoints+projectPoints;
+        int total = assignmentPoints+examPoints+projectPoints;
         System.out.println("Total points: " + total);
     }
      */
